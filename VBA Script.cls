@@ -58,6 +58,7 @@ Sub QuarterlyStockAnalysis()
                     .Cells(SummaryRow, 10).Value = QuarterlyChange
                     .Cells(SummaryRow, 11).Value = PercentageChange
                     .Cells(SummaryRow, 11).NumberFormat = "0.00%"
+                    .Cells(SummaryRow, 12).Value = TotalVolume
                     .Cells(SummaryRow, 12).NumberFormat = "0"
                     
                     If QuarterlyChange > 0 Then
